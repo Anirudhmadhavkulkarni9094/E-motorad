@@ -12,17 +12,17 @@ function ChartCard({data}) {
         <div className='ChartCard'>
             <h5>Total Carbo hyderate</h5>
             <h3>{data.carbohydrate}g</h3>
-            <p>Percent</p>
+            <p>{data.carbohydrate/100}%</p>
         </div>
         <div className='ChartCard'>
             <h5>Sodium</h5>
             <h3>{data.sodium}mg</h3>
-            <p>Percent</p>
+            <p>{data.sodium/100}%</p>
         </div>
         <div className='ChartCard'>
             <h5>Protiens</h5>
             <h3>{data.protein}g</h3>
-            <p>Percent</p>
+            <p>{data.protein/100}%</p>
         </div>
         
     </div>
