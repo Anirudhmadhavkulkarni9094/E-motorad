@@ -36,16 +36,16 @@ function NavBar() {
           <ul className="navbar-nav  w-50 justify-content-around">
             
             <li className="nav-item ">
-              <a className="nav-link text-light" href="www.google.com">PRODUCTS</a>
+              <a className="nav-link text-light" href="/">PRODUCTS</a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link text-light" href="www.google.com">WHAT'S NEW</a>
+              <a className="nav-link text-light" href="/">WHAT'S NEW</a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link text-light" href="www.google.com">NEWSLETTER</a>
+              <a className="nav-link text-light" href="/">NEWSLETTER</a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link text-light" href="www.google.com">CONTACT US</a>
+              <a className="nav-link text-light" href="/">CONTACT US</a>
             </li>
           </ul>
           <form className="d-flex">
