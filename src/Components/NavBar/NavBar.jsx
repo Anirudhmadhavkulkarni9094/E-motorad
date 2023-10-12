@@ -25,7 +25,7 @@ function NavBar() {
         };
       }, []);
   return (
-    <nav className="navbar px-5 text-light navbar-expand-lg bg-body-tertiary d-flex justify-content-between">
+    <nav className="navbar px-lg-5 px-sm-0 text-light navbar-expand-lg bg-body-tertiary d-flex justify-content-between">
       <div className="container-fluid">
       {!logo && <img src={logoImg} className='logo' alt=''></img>}
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
