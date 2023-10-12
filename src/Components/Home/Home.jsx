@@ -76,12 +76,14 @@ function Home() {
   return (
     <>
         <div className='row my-2 pl-lg-5 px-sm-1 d-flex justify-content-between'>
-            <div className='col-lg-8 col-md-8 col-sm-12 margin'>
+            <div className='col-lg-6 col-md-12 col-sm-12 margin'>
                 <Intro data={Pepsi[id]}></Intro>
+                <div class="row my-2 px-sm-1 d-flex justify-content-center justify-content-lg-between">
                 <Chart data={Pepsi[id]}></Chart>
+                </div>
                 <BottleSelector handleId={SettingId}></BottleSelector>
             </div>
-            <div className='col-lg-4 col-md-4 col-sm-12 Product-page d-flex'>
+            <div className='col-lg-4 col-md-12 col-sm-12 Product-page d-flex'>
                 <Product data={Pepsi[id]}></Product>
                 <InfoCard data={Pepsi[id]}></InfoCard>
             </div>
