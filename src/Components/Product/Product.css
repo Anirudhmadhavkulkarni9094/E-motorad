@@ -61,7 +61,7 @@
 }
 
 
-@media screen  and (max-width: 915px){
+@media screen  and (max-width: 995px){
     .InfoCard{
         width: 6rem;
         height: 6rem;
@@ -90,6 +90,21 @@
     .scale{
         display: none;
     }
+    .ChartCards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ChartCard{
+        width: 8rem;
+    }
     
+   
 }
 
+@media screen and (max-width : 455px) {
+    row{
+        justify-content: center!important;
+    }
+    
+}
