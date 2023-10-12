@@ -33,7 +33,7 @@ function BottleSelector({ handleId }) {
           onClick={() => handleImageClick(2)}
           alt=''
         />
-        <p>750ml</p>
+        <p>500ml</p>
       </div>
       <div className={`bottle-item ${selectedBottle === 3 ? 'white' : ''}`}>
         <img
