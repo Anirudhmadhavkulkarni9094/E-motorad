@@ -49,7 +49,7 @@ function NavBar() {
             </li>
           </ul>
           <form className="d-flex">
-            <button className="btn btn-outline-light buy-product" type="submit">Buy Product</button>
+            <button className="btn btn-outline-light buy-product Buy-now" type="submit">Buy Product</button>
           </form>
         </div>
       </div>
