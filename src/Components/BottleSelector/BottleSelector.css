@@ -16,6 +16,9 @@
     filter: brightness(0) invert(1);
 }
 
+.white{
+    filter: brightness(0) invert(1);
+}
 
 @media screen  and (max-width : 480px){
     .bottles{
