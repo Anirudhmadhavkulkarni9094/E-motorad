@@ -7,7 +7,7 @@ function ChartCard({data}) {
         <div className='ChartCard'>
             <h5>Amount Per server</h5>
             <h3>{data.amountPerServe}<span>Cal</span></h3>
-            <p>{data.amountPerServe/10}%</p>
+            <p>{data.amountPerServe/100}%</p>
         </div>
         <div className='ChartCard'>
             <h5>Total Carbo hyderate</h5>
@@ -17,7 +17,7 @@ function ChartCard({data}) {
         <div className='ChartCard'>
             <h5>Sodium</h5>
             <h3>{data.sodium}mg</h3>
-            <p>{data.sodium/100}%</p>
+            <p>{data.sodium/10}%</p>
         </div>
         <div className='ChartCard'>
             <h5>Protiens</h5>
