@@ -1,0 +1,15 @@
+.row{
+    background-color: #20529a!important;
+    
+}
+
+
+@media screen and (max-width:480px) {
+    .margin{
+        width: 10rem!important;
+    }
+}
+
+.margin{
+    margin: auto!important;
+}

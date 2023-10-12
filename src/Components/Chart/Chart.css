@@ -1,0 +1,82 @@
+.ChartCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 10px;
+    margin: 1rem 0rem;
+    
+}
+
+
+
+.ChartCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #20529a;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #0d3873;
+}
+
+.ChartCard:hover{
+    filter: brightness(120%);
+}
+
+.ChartCard p{
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 10px;
+    background-color: #2a6bb9;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.ChartCard h5{
+    padding: 0.5rem;
+    margin: 0;
+    font-size: 10px;
+}
+.ChartCard span{
+    font-size: 20px;
+    gap: 10px;
+    margin: 0rem 5px;
+}
+.ChartCard h3{
+    margin: 0%;
+    padding: 0;
+}
+.Chart{
+    color: aliceblue;
+}
+
+.Disclaimer{
+    padding: 0.5rem;
+}
+
+.Disclaimer p{
+    color: rgb(233, 229, 229);
+    padding: 0;
+    font-size: 10px;
+    margin: 0;
+}
+
+.Buy-now{
+    width: 14rem;
+    margin: 1em;
+}
+
+@media screen  and (max-width : 380px){
+    .ChartCards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ChartCard{
+        width: 8rem;
+    }
+    .margin{
+        margin: 0rem 3rem!important;
+    }
+}

@@ -1,0 +1,14 @@
+.intro-Container {
+    
+    width: 100%;
+    margin: auto;
+  }
+
+
+.intro-Container h1{
+    color: aliceblue;
+}
+.intro-Container p{
+    color: aliceblue;
+    font-size: 10px;
+}

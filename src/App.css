@@ -1,0 +1,11 @@
+#root{
+  background: linear-gradient(45deg ,#062251, #173c7e,#173c7e, #2a4e8a ,#3d65ab ,#537ec9);
+  height: 100%;
+  min-height: 100vh;
+}
+
+
+.btn{
+  border-radius: 1rem;
+  width: 10rem;
+}
