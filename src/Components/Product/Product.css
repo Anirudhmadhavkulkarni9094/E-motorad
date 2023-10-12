@@ -28,7 +28,7 @@
 
 .InfoCard{
     position: absolute;
-    right: 0.8rem;
+    right: 0rem;
     bottom: 0;
     background-color: #3788dd;
     color: aliceblue;
@@ -55,7 +55,7 @@
 
 .scale{
     position: absolute;
-    right: 0.5rem;
+    right: 0rem;
     top: 6rem;
     height: 10rem;
 }
