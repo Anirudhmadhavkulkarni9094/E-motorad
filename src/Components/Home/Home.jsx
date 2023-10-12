@@ -1,4 +1,5 @@
 import React, {  useState } from 'react'
+import './Home.css'
 import Intro from '../Intro/Intro'
 import Chart from '../Chart/Chart'
 import Product from '../Product/Product'
@@ -74,8 +75,8 @@ function Home() {
       
   return (
     <>
-        <div className='row my-2 pl-lg-5 px-sm-1 d-flex justify-content-around'>
-            <div className='col-lg-8 col-md-8 col-sm-12  w-50 m-auto margin'>
+        <div className='row my-2 pl-lg-5 px-sm-1 d-flex justify-content-between'>
+            <div className='col-lg-8 col-md-8 col-sm-12 margin'>
                 <Intro data={Pepsi[id]}></Intro>
                 <Chart data={Pepsi[id]}></Chart>
                 <BottleSelector handleId={SettingId}></BottleSelector>

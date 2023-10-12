@@ -1,15 +1,13 @@
-.row{
-    background-color: #20529a!important;
-    
-}
 
+.margin{
+    width: 60%!important;
+    padding: 0rem 0rem 0rem 10rem;
+}
 
 @media screen and (max-width:480px) {
     .margin{
-        width: 10rem!important;
+        padding: 0;
+        width: 100%;
     }
 }
 
-.margin{
-    margin: auto!important;
-}

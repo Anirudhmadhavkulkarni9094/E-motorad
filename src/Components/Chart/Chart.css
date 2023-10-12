@@ -68,10 +68,11 @@
     margin: 1em;
 }
 
-@media screen  and (max-width : 380px){
+@media screen  and (max-width : 500px){
     .ChartCards{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .ChartCard{
         width: 8rem;
