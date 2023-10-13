@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './BottleSelector.css';
 
 function BottleSelector({ handleId }) {
-  const [selectedBottle, setSelectedBottle] = useState(null);
+  const [selectedBottle, setSelectedBottle] = useState(0);
 
   const handleImageClick = (bottleId) => {
     setSelectedBottle(bottleId);

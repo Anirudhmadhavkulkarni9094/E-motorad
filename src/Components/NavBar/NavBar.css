@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.navbar{
+    background: transparent!important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+    width: auto;
+    border-radius: 2rem;
+    position: relative; /* Add this for proper gradient animation */
+    overflow: hidden; /* Hide the overflow for the gradient animation */
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%; /* Start the gradient from the left outside of the element */
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, rgba(55, 113, 163, 0.534)); /* Gradient from left to right */
+    transition: left 1s ease-in-out; /* Animate the left position */
+}
+
+.nav-link:hover::before {
+    left: 0; /* Move the gradient to the right edge of the element on hover */
+}
+
+

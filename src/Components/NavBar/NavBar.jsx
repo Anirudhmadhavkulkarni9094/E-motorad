@@ -1,6 +1,6 @@
 import React ,{useState,useEffect} from 'react';
 import logoImg from '../Assets/Images/logo.png'
-import '../Assets/StyleSheets/NavBar.css'
+import './NavBar.css'
 function NavBar() {
     const [logo,setLogo] = useState(false);
 
